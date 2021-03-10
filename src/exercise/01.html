@@ -1,0 +1,22 @@
+<!-- http://localhost:3000/isolated/exercise/01.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👋🏾, World!</title>
+  </head>
+  <body>
+    <script type="module">
+      const root = document.createElement('div')
+      root.id = 'root'
+      document.body.appendChild(root)
+
+      const title = document.createElement('h1')
+      title.textContent = '👋🏾, World!'
+      root.append(title)
+    </script>
+  </body>
+</html>
